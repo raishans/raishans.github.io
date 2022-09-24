@@ -1,12 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		function AlertMessage()
+		{
+			alert("Name: Shanskar Rai\nReg.No:202111503");
+		}
+		function largePic(x)
+			{
+				x.style.width="640px";
+				x.style.height="860px";
+			}
+		function normPic(x)
+			{
+				x.style.width="320px";
+				x.style.height="480px";
+			}
+		function mouseover()
+			{
+				document.getElementById("demo").style.fontSize="100px";
+			}
+		function mouseout()
+			{
+				document.getElementById("demo").style.fontSize="20px";
+			}
+	</script>
 </head>
 <body>
-    <h1>Portfolio</h1>
+	<div class="content box1">
+		<h1>Student Info !</h1>
+		<button onclick="AlertMessage()">PRESS HERE</button>
+	</div>
+	
+	<div class="content box2">
+		<img onmouseover="largePic(this)"onmouseout="normPic(this)"src="zen.webp"width="320px"height"480px">
+		<h3 id="demo" onmouseover="mouseover()" onmouseout="mouseout()">Zendaya</h3>	
+	</div>
+
+	<div class="content box3">
+		<h2> E-Mail- raishanskar@gmail.com </h2>
+	</div>
 </body>
 </html>
