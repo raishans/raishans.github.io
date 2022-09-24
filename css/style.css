@@ -1,0 +1,14 @@
+.content{
+    border: 15px solid #FCE694;
+    padding: 10px;
+    margin: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    align-items: center;
+    background: #2e56c4;
+    color: #FB8F67;
+    border-radius: 10px;
+}
