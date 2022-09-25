@@ -1,0 +1,31 @@
+@media (max-width:767px) {
+    .man_img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .man_img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .man_img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .man_img {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
+.tab {
+    display: inline-block;
+    margin-left: 650px;
+}

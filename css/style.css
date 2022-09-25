@@ -1,14 +1,49 @@
-.content{
-    border: 15px solid #FCE694;
-    padding: 10px;
-    margin: 20px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 60%;
-    align-items: center;
-    background: #2e56c4;
-    color: #FB8F67;
-    border-radius: 10px;
+
+#home_logo{
+    height: 50px;
+    width: 50px;
 }
+.header {
+    background-color: white;
+    font-size: 13px;
+}
+
+.header .navbar .navbar-brand img {
+    height: 40px;
+}
+
+.header .navbar .nav-item i {
+    margin-right: 8px;
+}
+
+.header .nav-vl {
+    border-left: 2px solid #d6d6d678;
+    height: 24px;
+    margin: auto 16px;
+    display: block;
+}
+
+@media(max-width:768px) {
+    .header .nav-vl {
+        display: none;
+    }
+}
+
+.header .nav-name {
+    font-weight: bold;
+    margin: auto 16px;
+}
+
+@media(max-width:768px) {
+    .header .nav-name {
+        margin: 8px 0px
+    }
+}
+
+.bd-color{
+    background-color: #cccccc;
+}
+.nav-color{
+    background-color:antiquewhite;
+}
+
